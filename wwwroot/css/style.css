@@ -104,7 +104,7 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
 .top_greeting p{
   line-height: 1;
   padding-top: 0.9375em;
-font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .welcome_greet{
   border-radius: 10px;
@@ -112,7 +112,7 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
   display: inline-block;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   /* margin-left: -1000px; */
-  margin-top: -8.75em;
+  margin-top: -6.75em;
   opacity: .8;
   color:#000 !important;
   /* background-color:#cac9ca !important; */
@@ -129,29 +129,31 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
 
 .welcome_greet h1{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 4.375em;
+  font-size: 4.7em;
 
 }
 .welcome_greet h3{
   line-height: 150%;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 1.875em;
+  font-size: 2.3em;
   
 }
 
 
 .developer_icons{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  width: 700px;
+  /* width: 43.75em; */
   padding-bottom: 10em;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 3.125em;
   /* margin-bottom: 10px; */
+  width: 100%;
+
 
 }
 .web_icon{
   display: inline-block;
-  margin-top: 2.7em;
+  margin: 2.7em 60px;
   /* margin-left: 9em; */
   /* margin-right: 9.375em; */
   vertical-align: top;
@@ -161,7 +163,7 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
   
 }
 .web_icon h2{
-  font-size: 2.5em;
+  font-size: 2.9em;
   border-bottom: 2px solid #1C6EA4;
   /* width: 10em; */
   text-align: center;
@@ -178,7 +180,7 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
   animation-delay: .5s;
 }
 .web_icon p{
-  font-size: 1.35em;
+  font-size: 1.5em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   width: 100%;
   line-height: 150%;
@@ -450,7 +452,7 @@ color: #fff;
   font-family: 'Playfair Display', serif;
   padding-bottom: .5em;
   vertical-align: top;
-  font-size: 60px;
+  font-size: 3.75em;
   width: 1.4em;
   margin-left: 3em;
   border-bottom: 1px solid #000;
@@ -458,7 +460,7 @@ color: #fff;
 }
 .personal_content p {
   padding-top: 1.25em;
-  font-size: 24px;
+  font-size: 1.5em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 
 }
@@ -473,6 +475,7 @@ color: #fff;
   height: 6.25em;
   position: absolute;
   opacity: .2;
+  margin-left: -170px;
   
   
 }
@@ -508,7 +511,7 @@ color: #fff;
 .skills h3{
   font-family: 'Playfair Display', serif;
   color: white;
-  font-size: 20px;
+  font-size: 1.25em;
   opacity: .6;
 
 }
@@ -568,6 +571,7 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
   /* font-family: 'Playfair Display', serif; */
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 
+  font-size: 1.2em;
   text-indent: 2em;
   border-left: 4px double #1C6EA4;
   padding-left: 0.9375em;
@@ -599,9 +603,7 @@ color: #fff;
   padding-top: 20px;
   /* display: inline-block; */
 }
-/* .project1{
-  display: inline-block;
-} */
+
 
 
 .project1 {
@@ -609,15 +611,18 @@ color: #fff;
   width: 25.00em;
   height: 18.75em;
   display: inline-block;
-  margin: 0 auto;
-  margin-left: 11.25em;
-  margin-top: 1.25em;
+  /* margin: 0 auto; */
+  /* margin-left: 11.25em; */
+  margin-top: 6em;
   -webkit-box-shadow: 0px 8px 12px 1px rgba(0,0,0,0.84); 
   box-shadow: 0px 8px 12px 1px rgba(0,0,0,0.84);
   /* display: -moz-grid-line;  
   grid-gap: 10px;  
   grid-template-columns: repeat(3, 100%);
   grid-template-rows: repeat(2, 100%); */
+  margin-left: 3.5em;
+
+  
   
 }
 .image{
@@ -732,23 +737,29 @@ color: #fff;
   text-align: center;   
   
 }
-
+.projects_quote{
+  width: 100%;
+}
 
 .quote{
   border-radius: 20%;
-  text-align: left;
+  text-align: center;
   color: white;
   font-family: 'Courgette', cursive;
   font-size: 30px;
-  margin-left: 650px;
+  /* margin-left: 650px; */
   display: inline-block;
-  width: 600px;
+  width: 40%;
   height: 250px;
   line-height: 150%;
   margin-top: 8em;
   margin-bottom: 4em;
   text-shadow: 8px 12px 8px #000000;
+  text-align: center;
 
+}
+.quote h4{
+  margin-top: 10px;
 }
 
 
@@ -973,6 +984,9 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
 /* Phone  */
 
 @media screen and (max-width: 480px){
+  .welcome_greet{
+    width: 90%;
+  }
   .welcome_greet h1{
       font-size: 2.55em;
   }
@@ -980,10 +994,13 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
       font-size: 1.3em;
   }
   .web_icon h2{
-      font-size: 1.5em;
+      font-size: 2em;
   }
   .web_icon p{
       font-size: 1em;
+  }
+  .developer_icons{
+    width: 100%;
   }
 
   /* About Me */
@@ -995,8 +1012,8 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
       display: none;
   }
   .personalphoto img{
-      width: 10em;
-      height: 12em;
+      width: 12em;
+      height: 14em;
       display: block;
       margin: 0 auto;
       margin-bottom: 30px;
@@ -1004,6 +1021,7 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   }
   .personalphoto{
       margin-bottom: 35px;
+      margin-top: 20px;
   }
   .personal_content{
       display:block;
@@ -1013,14 +1031,16 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
 
       
   }
-  .personal_content p{
-      font-size: 15px;
-      line-height: 200%;
-  }
   .personal_content h1{
+      font-size: 3em;
       margin: 0 auto;
 
   }
+  .personal_content p{
+      font-size: 1.3em;
+      line-height: 180%;
+  }
+  
   .cool_font{
       padding: 0;
       font-size: 18px;
@@ -1032,7 +1052,7 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
       width: 95%;
   }
   .history p{
-      font-size: 13px;
+      font-size: 1em;
 
   }
   .history h3{
@@ -1060,6 +1080,12 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   .skills{
       /* width: 100%; */
       text-align: center;
+  }
+  .skills h3{
+    font-size: 1em;
+  }
+  .skills h4{
+    font-size: 1.3em;
   }
   .skillset{
       width: 90%;
@@ -1091,10 +1117,46 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
       display: block;
       margin: 0 auto;
       text-align: center;
-      font-size: 20px;
+      font-size: 15px;
       
   }
 
+
+
+  /*********************************/
+
+  /********** Beginning of footer ***********************/
+
+.footimg{
+  font-size: 15px;
+}
+
+.footimg img{
+  width: 2.5em;
+  height: 2em;
+  padding: 0.4em;
+  border-radius: 10px;
+
+}
+
+.footimg .line_breaks{
+  padding-right: 0.2em;
+  font-size: 18px;
+  vertical-align: middle;
+  color: black;
+
+}
+.foot_placement p {
+  display: none;
+}
+.line_breaks{
+  display: none;
+}
+
+.curly{
+  display: none;
+
+}
 
 
 
@@ -1109,35 +1171,38 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
       background: linear-gradient(241deg, rgba(28,110,164,1) 32%, rgba(25,25,25,0.9640231092436975) 51%) !important;
   }
 }
-
 /* tablet */
 @media screen and (min-width: 481px) and (max-width:1023px ){
+
+  .welcome_greet{
+    width: 95%;
+  }
   .welcome_greet h1{
-      font-size: 2.5em;
+      font-size: 3em;
       
   }
   .welcome_greet h3{
-      font-size: 1em;
+      font-size: 2em;
   }
   .developer_icons{
-      
+      width: 100%;
   }
   .web_icon{
       width: 90%;
       
   }
   .web_icon h2{
-      font-size: 2em;
+      font-size: 3em;
       width: 50%;
       margin: 0 auto;
   }
   .web_icon p{
-      font-size: 1em;
+      font-size: 1.5em;
       width: 80%;
       margin: 0 auto;
   }
   .welcome_styling{
-      font-size: 1.5em;
+      font-size: 1em;
   }
 
 
@@ -1185,45 +1250,43 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   .personal_content{
       display:block;
       margin: 40px auto;
-      width: 95%;
+      width: 90%;
       
 
       
   }
   .personal_content p{
-      font-size: 20px;
       text-indent: 20px;
-      line-height: 200%;
+      font-size: 1.3em;
+      line-height: 160%;
   }
   .personal_content h1{
-      margin: 0 auto;
-      font-size: 55px;
+    font-size: 3em;
+    margin: 0 auto;
   }
   .cool_font{
       padding: 0;
-      font-size: 18px;
+      font-size: 24;
   }
 
   .history{
       display: block;
       margin: 20px auto;
-      width: 95%;
-      width: 95%;
+      width: 90%;
   }
   .history p{
-      font-size: 16px;
-      line-height: 200%;
+      font-size: 1.4em;
+      line-height: 160%;
       width: 90%;
   }
   .history h3{
-      font-size: 18px;
-      width: 80%;
+      font-size: 20px;
   }
 
   .history h4{
-      font-size: 1.125em;
+      font-size: 1.2em;
       /* margin-left: -12.5em; */
-      width: 80%;
+      width: 50%;
       
   }
   .history h2{
@@ -1233,12 +1296,12 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   }
   .aboutme_quote{
       margin: 0 auto;
-      width: 95%;
-      margin-right: 50px;
+      width: 75%;
+      /* margin-right: 50px; */
   }
 
   .quote_pic{
-      margin-left: -170px;
+      margin-left: -270px;
 
   }
 
@@ -1248,37 +1311,34 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
 
   /********************** Project Page ****************/
 
+  .title{
+    margin: 0 auto;
+  }
   .project1 {
       position: relative;
       width: 21.00em;
       height: 14.75em;
       display: block;
       
-      margin: 80px auto;
+      margin: 100px auto;
      
 
   } 
-
-  .navbar_projects {
-
-      display: inline-block;
-      /* position:absolute; */
-      margin-left: 40%;
   
-
+  .projects_quote{
+    padding-bottom: 2em;
   }
 
   .quote{
-      
-      width: 400px;
-      /* height: 150px; */
+    
+    width: 400px;
+      height: 150px;
       display: block;
       margin: 0 auto;
       text-align: center;
-      font-size: 25px;
-      padding-top: 20px;
-              
+      font-size: 20px;
   }
+  
 
 
 
@@ -1312,12 +1372,48 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
       
   }
 
+  /********** Beginning of footer ***********************/
+
+.footimg{
+  font-size: 21px;
+}
+
+.footimg img{
+  width: 2.5em;
+  height: 2em;
+  padding: 0.4em;
+  border-radius: 10px;
+
+}
+
+.footimg .line_breaks{
+  padding-right: 0.2em;
+  font-size: 22px;
+  vertical-align: middle;
+  color: black;
+
+}
+.foot_placement p {
+  display: none;
+}
+.line_breaks{
+  display: none;
+}
+
+.curly{
+  display: none;
+
+}
+
 
 
 
 
 
 }
+
+
+
 
 
 
@@ -1359,25 +1455,59 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   .nav-links:hover {
       color: rgba(255, 255, 255, 1);
   }
-  .developer_icons{
-      
-      /* text-align: center; */
-      width: 100%;
-  }
- 
+  
   .web_icon{
+    width: 90%;
+  }
+
+  .welcome_greet{
+    width: 80%;
+  }
+
+  .welcome_greet h1{
+    font-size: 4em;
+    
+  }
+  .welcome_greet h3{
+      font-size: 2em;
+  }
+  .developer_icons{
+      width: 100%;
+    
+  }
+
+  .web_icon h2{
+      font-size: 3.5em;
+      width: 30%;
       margin: 0 auto;
-      margin-left: 1%;
-      margin-right: 1%;
+  }
+  .web_icon p{
+      font-size: 1.5em;
+      width: 60%;
+      margin: 0 auto;
+      justify-content: center;
+
+  }
+  .welcome_styling{
+      font-size: 1.2em;
+  }
+
+
+
+  /*********************** About Me *********************************/
+  .skills{
+      /* width: 100%; */
       text-align: center;
   }
-
-
-
-  /* About Me */
-  .skills{
-      
-      
+  .skills h3{
+    font-size: 1.2em;
+  }
+  .skills h4{
+    font-size: 1.2em;
+  }
+  .skillset{
+      width: 90%;
+      /* margin: 40px auto; */
   }
   section{
       
@@ -1423,13 +1553,13 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   }
   
   .personal_content p{
-      font-size: 20px;
+      font-size: 1.5em;
       text-indent: 20px;
-      line-height: 200%;
+      line-height: 160%;
   }
   .personal_content h1{
       margin: 0 auto;
-      font-size: 55px;
+      font-size: 4em;
   }
   .cool_font{
       padding: 0;
@@ -1440,13 +1570,12 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
       display: inline-block;
       /* margin: 20px auto; */
       width: 55%;
-      width: 55%;
-      margin-top: -200px;
+      margin-top: -160px;
       margin-left: 450px;
   }
   .history p{
-      font-size: 16px;
-      line-height: 200%;
+      font-size: 1.2em;
+      line-height: 160%;
       width: 90%;
   }
   .history h3{
@@ -1496,10 +1625,12 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
 
   .quote{
       
-      
+      width: 50%;
       display: block;
       margin: 0 auto;
       text-align: center;
+      padding-bottom: 3em;
+      font-size: 30px;
       
   }
 
@@ -1549,22 +1680,46 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   .nav-links:hover {
       color: rgba(255, 255, 255, 1);
   }
-  .developer_icons{
-      
-      /* text-align: center; */
-      width: 100%;
-  }
- 
   .web_icon{
+    width: 90%;
+  }
+
+  .welcome_greet{
+    width: 80%;
+  }
+
+  .welcome_greet h1{
+    font-size: 4.5em;
+    
+  }
+  .welcome_greet h3{
+      font-size: 2.2em;
+  }
+  .developer_icons{
+      width: 100%;
+      
+    
+  }
+
+  .web_icon h2{
+      font-size: 3.7em;
+      width: 30%;
       margin: 0 auto;
-      margin-left: 1%;
-      margin-right: 1%;
-      text-align: center;
+  }
+  .web_icon p{
+      font-size: 1.8em;
+      width: 60%;
+      margin: 10px auto;
+      justify-content: center;
+
+  }
+  .welcome_styling{
+      font-size: 1.2em;
   }
 
 
 
-  /* About Me */
+  /**************** About Me ********************/
   .skills{
       width: 15em;
       
@@ -1580,7 +1735,7 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   }
 
   .personalphoto img{
-      width: 13em;
+      width: 15em;
       
       height: 19em;
       text-align: center;
@@ -1609,15 +1764,16 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
       margin-top: 2%;
       text-align: center;
       margin-left: -110px;
-      width: 15em;
+      width: 17em;
 
 
   }
   
   .personal_content p{
-      font-size: 20px;
+      font-size: 1.7em;
       text-indent: 20px;
-      line-height: 200%;
+      line-height: 160%;
+      
   }
   .personal_content h1{
       margin: 0 auto;
@@ -1633,13 +1789,13 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
       /* margin: 20px auto; */
       width: 55%;
      
-      margin-top: -200px;
+      margin-top: -10px;
       margin-left: 450px;
   }
   .history p{
-      font-size: 16px;
-      line-height: 200%;
-      width: 90%;
+    font-size: 1.4em;
+    line-height: 160%;
+    width: 90%;
   }
   .history h3{
       font-size: 18px;
@@ -1662,44 +1818,26 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
       margin: 0 auto;
       width: 55%;
       margin-top: 70px;
-      /* margin-right: 50px; */
   }
 
   .quote_pic{
-      margin-left: -240px;
+      margin-left: -370px;
 
   }
 
 
   /********************** Project Page ****************/
-  .project1 {
-      position: relative;
-      width: 25.00em;
-      height: 18.75em;
-      display: block;
-      /* margin-left: 7em;
-      margin-top: 1.25em; */
-      margin: 70px auto;
-      -webkit-box-shadow: 0px 8px 12px 1px rgba(0,0,0,0.84); 
-      box-shadow: 0px 8px 12px 1px rgba(0,0,0,0.84);
-      /* display: -moz-grid-line;  
-      grid-gap: 10px;  
-      grid-template-columns: repeat(3, 100%);
-      grid-template-rows: repeat(2, 100%); */ 
-
-  } 
+  
 
   .quote{
       
-      color: white;
-      font-family: 'Dancing Script', cursive;
-      font-size: 30px;
-      display: block;
-      width: 600px;
-      height: 250px;
-      line-height: 150%;
-      margin: 0 auto;
-      text-align: center;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 3em;
+    font-size: 30px;
+    margin-top: 5em;
       
   }
 
@@ -1750,27 +1888,22 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   .nav-links:hover {
       color: rgba(255, 255, 255, 1);
   }
-  .developer_icons{
-      
-      /* text-align: center; */
-      
-      width: 100%;
-  }
- 
-  .web_icon{
-      margin: 0 auto;
-      margin-left: 5%;
-      margin-right: 5%;
-      text-align: center;
-  }
+  
+  
 
   /* ABout Me */
 
   .personal_content{
       /* margin-left: 545px; */
+      display: inline-block;
+      margin-left: 640px;
   }
 
   .history{
+    display: inline-block;
+  width: 27em;
+  margin-top: -36.25em;
+  margin-left: 15.375em;
       /* margin: -6.25em 8%; */
   }
 }
