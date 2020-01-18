@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/randonjordan/Documents/CodingDojo/Coding/c-sharpPortfolio/c-sharpPortfolio.csproj": {}
+    "/Users/randonjordan/Documents/CodingDojo/Coding/Portfolio/c-sharpPortfolio.csproj": {}
   },
   "projects": {
-    "/Users/randonjordan/Documents/CodingDojo/Coding/c-sharpPortfolio/c-sharpPortfolio.csproj": {
+    "/Users/randonjordan/Documents/CodingDojo/Coding/Portfolio/c-sharpPortfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/randonjordan/Documents/CodingDojo/Coding/c-sharpPortfolio/c-sharpPortfolio.csproj",
+        "projectUniqueName": "/Users/randonjordan/Documents/CodingDojo/Coding/Portfolio/c-sharpPortfolio.csproj",
         "projectName": "c-sharpPortfolio",
-        "projectPath": "/Users/randonjordan/Documents/CodingDojo/Coding/c-sharpPortfolio/c-sharpPortfolio.csproj",
+        "projectPath": "/Users/randonjordan/Documents/CodingDojo/Coding/Portfolio/c-sharpPortfolio.csproj",
         "packagesPath": "/Users/randonjordan/.nuget/packages/",
-        "outputPath": "/Users/randonjordan/Documents/CodingDojo/Coding/c-sharpPortfolio/obj/",
+        "outputPath": "/Users/randonjordan/Documents/CodingDojo/Coding/Portfolio/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
