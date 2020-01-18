@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] </title>
+    <link rel="shortcut icon" href="~/images/Intrikit.png" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spectral&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans|Raleway|Spectral&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow|Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Bungee+Inline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Fascinate+Inline|Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="~/css/animate.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/09470d628a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="~/css/style.css"/>
+
+
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+             
+        
+        <div class="top_nav">
+            
+            <nav class="navbar">
+                <span class="navbar-toggle" id="js-navbar-toggle" >
+                    <i class="fas fa-bars"></i>
+                </span>
+                <a href="#" class="logo lightSpeedIn animated"><img src="~/images/Intrikit.png" alt=""></a>
+                <ul class="main-nav" id="js-menu" >
+                    <li>
+                        <a class="nav-links" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-links" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-links" asp-area="" asp-controller="Home" asp-action="Projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="nav-links" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footimg"> 
+        <div class="foot_placement">
+            <span class="curly">{</span>
+            <a href="https://www.linkedin.com/in/rjordan50/" target="_blank"> <img src="~/images/linkedin_logo.png" alt="LinkedIn Image" ></a>
+            <a href="https://github.com/Rnugg" target="_blank"><img src="~/images/github.png" alt=""></a>
+            <h4>&copy 2019 Randon Jordan & Intrikit WebCraft</h4>
+            <span class="line_breaks">▕ </span>
+            <p> Southern California </p>
+            <span class="line_breaks">▕ </span>
+            <p> Helping all</p>
+            <span class="curly">}</span>
+        </div>
+
+    </footer>
+    
+    <script src="~/js/actions.js" asp-append-version="true"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+    @RenderSection("Scripts", required: false)
+</body>
+
+</html>
