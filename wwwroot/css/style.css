@@ -112,7 +112,7 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
   display: inline-block;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   /* margin-left: -1000px; */
-  margin-top: -8.75em;
+  margin-top: -6.75em;
   opacity: .8;
   color:#000 !important;
   /* background-color:#cac9ca !important; */
@@ -129,29 +129,31 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
 
 .welcome_greet h1{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 4.375em;
+  font-size: 4.7em;
 
 }
 .welcome_greet h3{
   line-height: 150%;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 1.875em;
+  font-size: 2.3em;
   
 }
 
 
 .developer_icons{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  width: 700px;
+  /* width: 43.75em; */
   padding-bottom: 10em;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 3.125em;
   /* margin-bottom: 10px; */
+  width: 100%;
+
 
 }
 .web_icon{
   display: inline-block;
-  margin-top: 2.7em;
+  margin: 2.7em 60px;
   /* margin-left: 9em; */
   /* margin-right: 9.375em; */
   vertical-align: top;
@@ -161,7 +163,7 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
   
 }
 .web_icon h2{
-  font-size: 2.5em;
+  font-size: 2.9em;
   border-bottom: 2px solid #1C6EA4;
   /* width: 10em; */
   text-align: center;
@@ -178,7 +180,7 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
   animation-delay: .5s;
 }
 .web_icon p{
-  font-size: 1.35em;
+  font-size: 1.5em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   width: 100%;
   line-height: 150%;
@@ -973,6 +975,9 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
 /* Phone  */
 
 @media screen and (max-width: 480px){
+  .welcome_greet{
+    width: 90%;
+  }
   .welcome_greet h1{
       font-size: 2.55em;
   }
@@ -980,10 +985,13 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
       font-size: 1.3em;
   }
   .web_icon h2{
-      font-size: 1.5em;
+      font-size: 2em;
   }
   .web_icon p{
       font-size: 1em;
+  }
+  .developer_icons{
+    width: 100%;
   }
 
   /* About Me */
@@ -1097,6 +1105,42 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
 
 
 
+  /*********************************/
+
+  /********** Beginning of footer ***********************/
+
+.footimg{
+  font-size: 15px;
+}
+
+.footimg img{
+  width: 2.5em;
+  height: 2em;
+  padding: 0.4em;
+  border-radius: 10px;
+
+}
+
+.footimg .line_breaks{
+  padding-right: 0.2em;
+  font-size: 18px;
+  vertical-align: middle;
+  color: black;
+
+}
+.foot_placement p {
+  display: none;
+}
+.line_breaks{
+  display: none;
+}
+
+.curly{
+  display: none;
+
+}
+
+
 
 }
 
@@ -1112,32 +1156,36 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
 
 /* tablet */
 @media screen and (min-width: 481px) and (max-width:1023px ){
+
+  .welcome_greet{
+    width: 95%;
+  }
   .welcome_greet h1{
-      font-size: 2.5em;
+      font-size: 3em;
       
   }
   .welcome_greet h3{
-      font-size: 1em;
+      font-size: 2em;
   }
   .developer_icons{
-      
+      width: 100%;
   }
   .web_icon{
       width: 90%;
       
   }
   .web_icon h2{
-      font-size: 2em;
+      font-size: 3em;
       width: 50%;
       margin: 0 auto;
   }
   .web_icon p{
-      font-size: 1em;
+      font-size: 1.5em;
       width: 80%;
       margin: 0 auto;
   }
   .welcome_styling{
-      font-size: 1.5em;
+      font-size: 1em;
   }
 
 
@@ -1359,22 +1407,46 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   .nav-links:hover {
       color: rgba(255, 255, 255, 1);
   }
-  .developer_icons{
-      
-      /* text-align: center; */
-      width: 100%;
-  }
- 
+  
   .web_icon{
+    width: 90%;
+  }
+
+  .welcome_greet{
+    width: 80%;
+  }
+
+  .welcome_greet h1{
+    font-size: 4em;
+    
+  }
+  .welcome_greet h3{
+      font-size: 2em;
+  }
+  .developer_icons{
+      width: 100%;
+    
+  }
+
+  .web_icon h2{
+      font-size: 3.5em;
+      width: 30%;
       margin: 0 auto;
-      margin-left: 1%;
-      margin-right: 1%;
-      text-align: center;
+  }
+  .web_icon p{
+      font-size: 1.5em;
+      width: 60%;
+      margin: 0 auto;
+      justify-content: center;
+
+  }
+  .welcome_styling{
+      font-size: 1.2em;
   }
 
 
 
-  /* About Me */
+  /*********************** About Me *********************************/
   .skills{
       
       
@@ -1549,17 +1621,41 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   .nav-links:hover {
       color: rgba(255, 255, 255, 1);
   }
-  .developer_icons{
-      
-      /* text-align: center; */
-      width: 100%;
-  }
- 
   .web_icon{
+    width: 90%;
+  }
+
+  .welcome_greet{
+    width: 80%;
+  }
+
+  .welcome_greet h1{
+    font-size: 4.5em;
+    
+  }
+  .welcome_greet h3{
+      font-size: 2.2em;
+  }
+  .developer_icons{
+      width: 100%;
+      
+    
+  }
+
+  .web_icon h2{
+      font-size: 3.7em;
+      width: 30%;
       margin: 0 auto;
-      margin-left: 1%;
-      margin-right: 1%;
-      text-align: center;
+  }
+  .web_icon p{
+      font-size: 1.8em;
+      width: 60%;
+      margin: 10px auto;
+      justify-content: center;
+
+  }
+  .welcome_styling{
+      font-size: 1.2em;
   }
 
 
@@ -1750,19 +1846,8 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   .nav-links:hover {
       color: rgba(255, 255, 255, 1);
   }
-  .developer_icons{
-      
-      /* text-align: center; */
-      
-      width: 100%;
-  }
- 
-  .web_icon{
-      margin: 0 auto;
-      margin-left: 5%;
-      margin-right: 5%;
-      text-align: center;
-  }
+  
+  
 
   /* ABout Me */
 
