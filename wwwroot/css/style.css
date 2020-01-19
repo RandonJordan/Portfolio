@@ -584,9 +584,6 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
 /* BEGINNING OF PROJECTS PAGE ******************************************/
 
 
-.navbar_projects {
-  /* padding-top: 20px; */
-}
 .projects{
   /* width: 100%;
   height: 100vh; */
@@ -890,6 +887,21 @@ color: #fff;
   
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
   border-top: 2px solid #1C6EA4;
   width: 100%;
@@ -1123,7 +1135,122 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
 
 
 
-  /*********************************/
+  /************* End of Project Page********************/
+
+
+
+  /************* Beginning of Contact page ********************/
+
+  .form_bg .novertical{
+    padding-bottom: .4em;
+    text-align: center;
+    /* font-family: 'Rokkitt', serif; */
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .form_bg h2{
+    text-align: center;
+    padding-top: .8em;
+    color: #1C6EA4;
+    font-size: .8em;
+  }
+
+  .form_bg{
+    /* background-size: cover; */
+    border: 8px groove #1C6EA4;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    margin: 20% auto;
+    text-align: left;
+    /* padding: 20px; */
+    border-radius: 2%;
+  }
+
+  .contact_form .arrow{
+    font-size: 2em;
+    margin-top: -.5em;
+    margin-left: 7.2em;
+    color:#1C6EA4;
+  }
+  .contact .typeofapp{
+    width: 20em;
+  }
+
+  .form_bg label input {
+    margin-bottom: 1em;
+  }
+
+  .contact_form input{
+    width: 10em;
+    height: 1.7em;
+    border: 2px solid #1C6EA4;
+    
+  }
+  .contact_form textarea{
+    
+    border: 2px solid #1C6EA4;
+  
+  }
+
+  .vertical_text{
+    transform: rotate(90deg);
+    color: whitesmoke;
+    float: right;
+    margin-right: -3.7em;
+    margin-top: 1.6em;
+    font-size: .9em;
+  
+    
+  }
+
+  .contact_form{
+    /* border: 3px groove silver; */
+    padding: 1em;
+    color: silver;
+    background-image: url(images/form_pic7.jpg);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  .contact .email_form{
+    width: 15em;
+  }
+  .form_bottom{
+    color: whitesmoke;
+    
+  }
+
+  .contact_button{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: block;
+    padding: 0.2em;
+    margin-top: 0.4em;
+    font-size: 1em;
+    border-radius: 5%;
+    border: 2px solid #1C6EA4;
+    background: linear-gradient(0deg, rgba(164,164,164,1) 17%, rgba(87,87,87,1) 83%);
+  
+  }
+  .button_div {
+    width: 100%;
+  }
+  .contact_button{
+    margin: 0 auto;
+    font-weight: bolder;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    
+  }
+
+  .contact_form h4{
+    font-size: .8em;
+  }
+
+
+
+
+
 
   /********** Beginning of footer ***********************/
 
