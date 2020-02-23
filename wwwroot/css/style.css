@@ -1466,7 +1466,109 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
       font-size: 20px;
   }
   
+/************* Beginning of Contact page ********************/
 
+.form_bg .novertical{
+  padding-bottom: .5em;
+  text-align: center;
+  /* font-family: 'Rokkitt', serif; */
+  /* font-family: 'Playfair Display', serif; */
+  font-size: 1.8em;
+  color: white;
+}
+
+.form_bg h2{
+  text-align: center;
+  padding-top: 1em;
+  color: #1C6EA4;
+  font-size: 1em;
+}
+
+.form_bg{
+  /* background-size: cover; */
+  border: 8px groove #1C6EA4;
+  background-color: rgb(0, 0, 0);
+  display: inline-block;
+  margin: 20% auto;
+  text-align: left;
+  /* padding: 20px; */
+  border-radius: 2%;
+}
+
+.contact_form .arrow{
+  font-size: 2em;
+  margin-top: -.5em;
+  margin-left: 7.2em;
+  color:#1C6EA4;
+}
+.contact .typeofapp{
+  width: 20em;
+}
+
+.form_bg label input {
+  margin-bottom: 1.2em;
+}
+
+.contact_form input{
+  width: 10em;
+  height: 1.7em;
+  border: 2px solid #1C6EA4;
+  
+}
+.contact_form textarea{
+  
+  border: 2px solid #1C6EA4;
+
+}
+
+.vertical_text{
+  transform: rotate(90deg);
+  color: whitesmoke;
+  float: right;
+  margin-right: -3.7em;
+  margin-top: 1.6em;
+  font-size: 1em;
+
+  
+}
+
+.contact_form{
+  /* border: 3px groove silver; */
+  padding: 1em;
+  color: silver;
+  background-image: url(images/form_pic7.jpg);
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.contact .email_form{
+  width: 15em;
+}
+.form_bottom{
+  color: whitesmoke;
+  
+}
+
+.contact_button{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  display: block;
+  padding: 0.2em;
+  font-size: 1.2em;
+  border-radius: 5%;
+  border: 2px solid #1C6EA4;
+  background: linear-gradient(0deg, rgba(164,164,164,1) 17%, rgba(87,87,87,1) 83%);
+  margin: 0 auto;
+  font-weight: bolder;
+  width: 50%;
+  text-align: center;
+  
+
+}
+.button_div {
+  width: 100%;
+}
+
+.contact_form h4{
+  font-size: 1em;
+}
 
 
 

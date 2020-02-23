@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using MailKit.Net.Smtp;
+using MimeKit;
+
 
 namespace c_sharpPortfolio
 {
