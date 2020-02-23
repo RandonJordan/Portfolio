@@ -79,7 +79,7 @@ namespace c_sharpPortfolio.Controllers
                 catch (Exception ex)
                 {
                 ModelState.Clear();
-                ViewBag.Message = $" Oops! We have a problem here {ex.Message}";
+                ViewBag.Message = $" Crap! We have a problem here {ex.Message}";
                 }
             }
             return View();
