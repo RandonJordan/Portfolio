@@ -11,6 +11,7 @@ using MimeKit;
 using MimeKit.Text;
 
 
+
 namespace c_sharpPortfolio.Controllers
 {
     public class HomeController : Controller
@@ -53,7 +54,7 @@ namespace c_sharpPortfolio.Controllers
         {
             try
                 {
-                //instantiate a new MimeMessage
+                //instantiate a new MimeMessage 
                 var message = new MimeMessage();
                 //Setting the To e-mail address
                 message.To.Add(new MailboxAddress("E-mail Recipient Name", "randocommando2345@gmail.com"));
@@ -64,7 +65,7 @@ namespace c_sharpPortfolio.Controllers
                 //E-mail message body
                 message.Body = new TextPart(TextFormat.Html)
                 {
-                    Text = "Here is what they need" + contactViewModel.Comment + " Message was sent by: " + contactViewModel.first_name + contactViewModel.last_name + " E-mail: " + contactViewModel.email
+                    Text = "Here is what they need: " + contactViewModel.Comment + " <br /> Message was sent by: \n" + contactViewModel.first_name + contactViewModel.last_name + "<br /> E-mail: " + contactViewModel.email
                 };
 
                 //Configure the e-mail

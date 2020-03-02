@@ -2,44 +2,46 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
 }
 
 
 .container{
   text-align: center;
+
 }
 
 .navbar {
   font-size: 20px;
   background-image: linear-gradient(260deg, #313131 0%, #727272 100%);
-  /* border: 1px solid rgba(0, 0, 0, 0.2); */
   padding-bottom: 10px;
   border-bottom: 2px solid #1C6EA4;
+
 }
 
 .main-nav {
   list-style-type: none;
   display: none;
+
 }
 
 .nav-links,
 .logo {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7);
+
 }
 
 .main-nav li {
   text-align: center;
   margin: 15px auto;
+
 }
 
 .logo {
-  /* display: inline-block; */
-  /* font-size: 22px; */
   margin-top: 10px;
   margin-left: 20px;
-  /* max-width: 100%; */
-  /* height: auto; */
+
 }
 
 .navbar-toggle {
@@ -49,55 +51,35 @@
   cursor: pointer;
   color: rgba(255, 255, 255, 0.8);
   font-size: 24px;
-}
 
+}
 
 .active {
   display: block;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .top_nav{
   text-align: center;
-font-family: "Trebuchet MS", Helvetica, sans-serif;
-  /* background: grey; */
-/* background: linear-gradient(-45deg, #585858, #868082, #2b2b2b, #4b4b4b); */
-/* background-size: 400% 400%; */
-  /* animation: gradientBG 15s ease infinite; */
-  /* color:#fff !important; background-color:#858385 !important; */
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   color:#fff !important; 
   background-image: url(/images/homegrey.png) ;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background: linear-gradient(90deg, #858385 50%, #989698 50%); */
-  /* background: linear-gradient(90deg, #ebebeb 50%, #fff 50%); */
-}
 
+}
 
 .welcome_styling{
   color: #1C6EA4;
   font-size: 22px;
   font-family: 'Bungee Inline', cursive;
+
 }
 
 .top_greeting{
   padding-top: 9.375em;
-  /* background: linear-gradient(0deg, #ebebeb 50%, #fff 50%); */
   text-align: center;
 }
 
@@ -105,33 +87,28 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
   line-height: 1;
   padding-top: 0.9375em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+
 }
+
 .welcome_greet{
   border-radius: 10px;
   width: 100%;
   display: inline-block;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  /* margin-left: -1000px; */
   margin-top: -6.75em;
   opacity: .8;
   color:#000 !important;
-  /* background-color:#cac9ca !important; */
-  /* color:#fff !important; background-color:#989698 !important; */
   padding: 0.9375em;;
-  /* -webkit-box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0,0,0,0); 
-  box-shadow: 0px 0px 0px 8px #DADDDA, 0px 0px 0px 16px #B2B5B2, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #000000, 0px 0px 0px 39px #4B4C4B, 5px 5px 15px 5px rgba(0,0,0,0); */
-  /* -webkit-box-shadow: 5px 5px 15px 5px #000000; 
-  box-shadow: 5px 5px 15px 5px #000000; */
   animation-delay: 1s;
 
 }
-
 
 .welcome_greet h1{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 4.7em;
 
 }
+
 .welcome_greet h3{
   line-height: 150%;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -142,43 +119,38 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
 
 .developer_icons{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  /* width: 43.75em; */
   padding-bottom: 10em;
   text-align: center;
   margin-top: 3.125em;
-  /* margin-bottom: 10px; */
   width: 100%;
 
-
 }
+
 .web_icon{
   display: inline-block;
   margin: 2.7em 60px;
-  /* margin-left: 9em; */
-  /* margin-right: 9.375em; */
   vertical-align: top;
   width: 25em;
   text-align: center;
-
   
 }
+
 .web_icon h2{
   font-size: 2.9em;
   border-bottom: 2px solid #1C6EA4;
-  /* width: 10em; */
   text-align: center;
-  /* margin-left: 1em; */
   font-family: 'Rokkitt', serif;
   width: 50%;
   margin: 10px auto;
 
-
-  
 }
+
 .web_icon_border{
   padding-bottom: .4em;
   animation-delay: .5s;
+
 }
+
 .web_icon p{
   font-size: 1.5em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -188,13 +160,10 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-weight: bold;
   
 }
+
 .techimages{
   height: 2.5em;
-  /* width: 400px; */
   position: relative;
-  /* background-color: black; */
-  /* background-image: -moz-linear-gradient(bottom, #1C6EA4 0%, rgb(124, 124, 124) 10%);
-  background-image: -webkit-linear-gradient(bottom, #1C6EA4 0%, rgb(124, 124, 124) 100%);  */
   background: rgb(59,59,59);
   background: radial-gradient(circle, rgb(78, 78, 78) 67%, rgba(28,110,164,1) 100%);
   
@@ -205,29 +174,18 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
   height: 5em;
   display: inline-block;
   padding: 0.75em;
-  /* margin-left: 0.1em; */
   vertical-align: middle;
   
 }
 
-
-
 #container{
   position: absolute;
-  /* width:25em; */
   -webkit-box-shadow: 0px 0px 15px 9px rgba(0,0,0,0.48); 
   box-shadow: 0px 0px 15px 9px rgba(0,0,0,0.48);
-  /* background-image: -moz-linear-gradient(bottom, #1C6EA4 0%, rgb(124, 124, 124) 100%);
-  background-image: -webkit-linear-gradient(bottom, #1C6EA4 0%, rgb(124, 124, 124) 100%);  */
-  /* margin-left: 39%; */
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
   border-radius: 15px;
-
-  
-
-  
   background-color:#5f5d5f !important;
   background: linear-gradient(0deg, rgba(164,164,164,1) 26%, rgba(87,87,87,1) 100%);
   border-bottom: 2px solid black;
@@ -268,31 +226,33 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
       /* Sides */
       repeat-y;
 
-
-
-  
 }
 
 
 /****** END OF FIRST PAGE ***********************************************/
+
+
+
 
 /****** ABOUT ME SECTION *************************************************/
 
 .dropdown{
   margin-left: 3em;
   margin-right: 1.5em;
+
 }
+
 .dropdown-content{
   display: none;
   position: absolute;
-  /* background-color: #f1f1f1; */
-  /* width: 7em; */
   box-shadow: 0px 6px 9px 0px #1C6EA4 ;
   z-index: 1;
+
 }
+
 .dropdown-content li {
   color: black;
-  padding: 0.75em 1em;
+  padding: 0.4em .6em;
   text-decoration: none;
   display: block;
 
@@ -302,62 +262,48 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
   display: block;
 
 }
-.dropdown:hover .line  {
+
+.dropdown:hover .line {
   background-color: #747474;
   border-radius: 25%;
 
 }
 
 section{
-  /* margin-left: 0.625em; */
   padding: 0.7em;
-  /* width: 9.375em; */
   text-align: center;
   border-right: 1.5px solid black;
   display: inline-block;
   vertical-align: top;
   border-left: 1.5px solid black;
   border-radius: 5%;
+
 }
-/* .resume ul li{
-  line-height: 150%;
-  padding-top: 10px;
-} */
 
 .line{
   border-bottom: 2px solid #1C6EA4;
+
 }
 
-
 .about_me{
-  /* width: 100%; */
-  /* height: 100vh; */
-  /* font-family: "Trebuchet MS", Helvetica, sans-serif; */
-color: #fff;
-  /* background: linear-gradient(-45deg, #585858, #868082, #2b2b2b, #4b4b4b); */
-  /* background: #dbdada; */
-  /* background: linear-gradient(20deg, #858585 50%, #c4c4c4 50%) !important; */
+  color: #fff;
   background-image: url(/images/homegrey.png) ;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 20px;
-  /* background-attachment: fixed; */
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  /* display: inline-block; */
-  /* background: #c5c5c5; */
+
 }
+
 .about_me p{
   color: #000;
+
 }
 
 .title{
 
   text-align: center;
-  /* padding: 0.4em; */
   font-family: 'Rokkitt', serif;
   font-size: 40px;
   width: 200px;
@@ -386,60 +332,43 @@ color: #fff;
 }
 }
 
-
-
-
-
-
-
-
-
-
 .personalphoto{
   display: inline-block;
   
 }
+
 .personalphoto img{
   width: 18.75em;
   height: 22em; 
-  
   opacity: 0.7;
   display: inline-block;
   margin-left: 10%;
   border-bottom: 6px groove #1C6EA4;
-  /* border-bottom: 4px solid rgb(219, 219, 219); */
-  /* margin-top: 50px; */
   border-radius: 45%;
-  
-
-
   
 }
 
 .personal_content{
   display: inline-block;
-  /* border-left: 1px solid black; */
   line-height: 250%;
   margin-top: -40em;
   margin-left: 42.5em;
-  
   width: 31.25em;
   color:#fff !important;
-  /* background-color:#a8a8ac !important; */
   border-radius: 4px;
   padding: 0.9375em;
-  /* opacity: .8; */
-  /* background: linear-gradient(-45deg, #e6e6e6, #a3a3a3, #8f8f8f, #d6d6d6); */
   text-align: center;
   vertical-align: top;
-  /* position: absolute; */
   
 }
+
 .about_styling{
   color: #1C6EA4;
   font-size: 35px;
   vertical-align: bottom;
+
 }
+
 .cool_font{
   font-family: 'Monoton', cursive;
   font-size: 25px;
@@ -447,7 +376,9 @@ color: #fff;
   border-radius: 10%;
   padding: 0.25em;
   opacity: .7;
+
 }
+
 .personal_content h1{
   font-family: 'Playfair Display', serif;
   padding-bottom: .5em;
@@ -457,7 +388,9 @@ color: #fff;
   margin-left: 3em;
   border-bottom: 1px solid #000;
   text-align: center;
+
 }
+
 .personal_content p {
   padding-top: 1.25em;
   font-size: 1.5em;
@@ -465,23 +398,23 @@ color: #fff;
 
 }
 .aboutme_quote {
-  /* position: absolute; */
   margin-left: 43.75em;
   margin-top: -5em;
   padding-bottom: 2em;
   width: 25em;
+
 }
+
 .quote_pic{
   height: 6.25em;
   position: absolute;
   opacity: .2;
   margin-left: -170px;
   
-  
 }
+
 .aboutme_quote p{
   margin-left: 3.5em;
-  /* margin-top: 2em;  */
   font-family: 'Courgette', cursive;
   font-size: 25px;
   line-height: 130%;
@@ -489,6 +422,7 @@ color: #fff;
   padding-bottom: 20px;
   color: white;
   opacity: .7;
+
 }
 
 .skills{
@@ -508,6 +442,7 @@ color: #fff;
   border-radius: 0px 0px 40px 0px;
 
 }
+
 .skills h3{
   font-family: 'Playfair Display', serif;
   color: white;
@@ -515,6 +450,7 @@ color: #fff;
   opacity: .6;
 
 }
+
 .skillset h4{
   padding-top: 0.625em;
   padding-bottom: 0.625em;
@@ -523,20 +459,22 @@ color: #fff;
   text-align: center;
   font-family: 'Playfair Display', serif;
   font-size: 20px;
+
 }
+
 .skill_font{
   color: black;
   font-size: 20px;
+
 }
 
 .history{
   display: inline-block;
   width: 25em;
   margin-top: -36.25em;
-  margin-left: 14.375em;
-  /* vertical-align: middle; */
 
 }
+
 .history h3{
   color: black;
   font-size: 20px;
@@ -544,11 +482,14 @@ color: #fff;
   border-top: 3px dotted #1C6EA4;
   padding: 0.625em;
   width: 8.125em;
+
 }
+
 .history h4{
   margin-left: 2.5em;
   padding-bottom: 0.6250em;
   font-size: 20px;
+
 }
 
 .history h2{
@@ -559,23 +500,20 @@ color: #fff;
   width: 6em;
   margin-left: 4em;
   color: #1C6EA4;
-  /* font-family: 'Fascinate Inline', cursive; */
   font-size: 30px;
-font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   
-
 }
 
 .history p{
   line-height: 170%;
-  /* font-family: 'Playfair Display', serif; */
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-
   font-size: 1.2em;
   text-indent: 2em;
   border-left: 4px double #1C6EA4;
   padding-left: 0.9375em;
   padding-top: 0.9375em;
+
 }
 
 
@@ -585,49 +523,36 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
 
 
 .projects{
-  /* width: 100%;
-  height: 100vh; */
-  /* font-family: "Trebuchet MS", Helvetica, sans-serif; */
-color: #fff;
-  /* background: linear-gradient(-45deg, #585858, #868082, #2b2b2b, #4b4b4b); */
-  /* background: #dbdada; */
-  /* background: linear-gradient(-200deg, #858585 50%, #c4c4c4 50%) !important; */
+  color: #fff;
   background-image: url(/images/p_wood6.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 20px;
-  /* display: inline-block; */
+
 }
-
-
 
 .project1 {
   position: relative;
   width: 25.00em;
   height: 18.75em;
   display: inline-block;
-  /* margin: 0 auto; */
-  /* margin-left: 11.25em; */
   margin-top: 6em;
   -webkit-box-shadow: 0px 8px 12px 1px rgba(0,0,0,0.84); 
   box-shadow: 0px 8px 12px 1px rgba(0,0,0,0.84);
-  /* display: -moz-grid-line;  
-  grid-gap: 10px;  
-  grid-template-columns: repeat(3, 100%);
-  grid-template-rows: repeat(2, 100%); */
   margin-left: 3.5em;
 
-  
-  
 }
+
 .image{
   display: block;
   width:100%;
   height: 18.75em;
   border-radius: 0.94em;
+
 }
+
 .overlay1 {
   position: absolute;
   top: 0;
@@ -642,14 +567,15 @@ color: #fff;
   border-radius: 0.94em;
   -webkit-box-shadow: 0px 8px 12px 1px rgba(0,0,0,0.84); 
   box-shadow: 0px 8px 12px 1px rgba(0,0,0,0.84);
+
 }
 
 .project1:hover .overlay1 {
   opacity: .9;
+
 }
 
 .text1 {
-  /* color: white; */
   font-size: 1.06em;
   position: absolute;
   top: 50%;
@@ -660,6 +586,7 @@ color: #fff;
   text-align: center;
   display: inline-block;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+
 }
 
 
@@ -669,10 +596,11 @@ color: #fff;
   border-bottom: 2px solid grey;
   color: black;
   font-size: 1.56em;
+
 }
+
 .text1 button{
   padding:  0.44em;
-  /* vertical-align: top; */
   margin: 0.94em 0 0 0.56em;
   border-radius: 0.44em;
   background: rgb(59,59,59);
@@ -683,6 +611,7 @@ color: #fff;
   font-size: 0.88em;
 
 }
+
 .frontend{
   margin-top: 0.94em;
   width: 6.25em;
@@ -693,20 +622,25 @@ color: #fff;
   margin-right: 3.75em;
 
 }
+
 .feheader {
   border-bottom: 2px solid grey;
   font-size: 1.25em;
   color: black;
 
 }
+
 .beheader{
   border-bottom: 2px solid grey;
   font-size: 1.25em;
   color: black;
+
 }
+
 .text1 p{
   width: 100%;
   margin-top: 0.19em;
+
 }
 
 .frontend .frontlist li{
@@ -714,6 +648,7 @@ color: #fff;
   font-size: 0.94em;
   margin-left: 0.63em;
   margin-top: 0.31em;   
+
 }
 
 .backend{
@@ -725,7 +660,6 @@ color: #fff;
   
 }
 
-
 .backend .backlist li{
   list-style: none;
   font-size: 0.94em;
@@ -734,8 +668,10 @@ color: #fff;
   text-align: center;   
   
 }
+
 .projects_quote{
   width: 100%;
+
 }
 
 .quote{
@@ -744,7 +680,6 @@ color: #fff;
   color: white;
   font-family: 'Courgette', cursive;
   font-size: 30px;
-  /* margin-left: 650px; */
   display: inline-block;
   width: 40%;
   height: 250px;
@@ -755,27 +690,18 @@ color: #fff;
   text-align: center;
 
 }
+
 .quote h4{
   margin-top: 10px;
+
 }
-
-
 
 /* ENDING OF PROJECTS ***************************************/
 
 /* BEGINNING OF CONTACT ***************************************/
 
-
-
-
-
 .contact{
-  /* position: absolute; */
-  /* width: 100%; */
-  /* height: 100vh; */
-  /* position: relative; */
   background: url(/images/contact_web.jpg) no-repeat center center fixed; 
-  /* -webkit-background-size: cover; */
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -784,15 +710,15 @@ color: #fff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* opacity: .8; */
+
 }
+
 .form_bg .novertical{
   padding-bottom: 1.875em;
   text-align: center;
-  /* font-family: 'Rokkitt', serif; */
-  /* font-family: 'Playfair Display', serif; */
   font-size: 3em;
   color: white;
+
 }
 
 .form_bg h2{
@@ -800,44 +726,51 @@ color: #fff;
   padding-top: 1.25em;
   color: #1C6EA4;
   font-size: 1.875em;
+
 }
+
 .form_bg{
-  
   background-size: cover;
   border: 8px groove #1C6EA4;
   background-color: rgb(0, 0, 0);
   display: inline-block;
   margin: 6% auto;
   text-align: left;
-  /* padding: 20px; */
   border-radius: 2%;
 
-  
-
- 
 }
+
 .contact_form .arrow{
   font-size: 3em;
   margin-top: -2em;
   margin-left: 7em;
   color:#1C6EA4;
+
 }
 
+.contact_form h4{
+  margin-top: .5em;
+
+}
 
 .contact .typeofapp{
   width: 20em;
+
 }
+
 .form_bg label input {
-  margin-bottom: 1.5em;
+  margin-bottom: 5.5em;
+
 }
+
 .contact_form input{
   width: 16em;
   height: 2.3em;
   border: 2px solid #1C6EA4;
   
 }
+
 .contact_form textarea{
-  
   border: 2px solid #1C6EA4;
 
 }
@@ -850,18 +783,21 @@ color: #fff;
   margin-top: 1em;
   font-size: 1.4em;
 
-  
 }
+
 .contact_form{
-  /* border: 3px groove silver; */
   padding: 1.25em;
   color: silver;
   background-image: url(images/form_pic7.jpg);
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+
 }
+
 .contact .email_form{
   width: 15em;
+
 }
+
 .form_bottom{
   color: whitesmoke;
   
@@ -878,9 +814,12 @@ color: #fff;
   background: linear-gradient(0deg, rgba(164,164,164,1) 17%, rgba(87,87,87,1) 83%);
 
 }
+
 .button_div {
   width: 100%;
+
 }
+
 .contact_button{
   margin-left: 43%;
   font-weight: bolder;
@@ -889,19 +828,7 @@ color: #fff;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/****** Footer ****************/
 footer{
   border-top: 2px solid #1C6EA4;
   width: 100%;
@@ -912,7 +839,8 @@ footer{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   display: inline-block;
   background: rgb(54,54,54);
-background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25,25,25,0.8127626050420168) 100%);
+  background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25,25,25,0.8127626050420168) 100%);
+
 }
 
 .footimg img{
@@ -920,18 +848,16 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   height: 4em;
   display: inline-block;
   padding: 0.75em;
-  /* margin-left: 0.1em; */
   vertical-align: middle;
-  
-  /* left: 350px; */
   border-radius: 20px;
-
   
 }
+
 .foot_placement h4 {
   display: inline-block;
  
 }
+
 .foot_placement p{
   display: inline-block;
   
@@ -944,6 +870,7 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   color: black;
 
 }
+
 .curly{
   display: inline-block;
   font-size: 5em;
@@ -951,36 +878,11 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   vertical-align: middle;
   padding-left: 0.4em;
   padding-right: 0.4em;
-  
-
 
 }
 
 
 /********************* END OF CONTACT PAGE *************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1011,8 +913,9 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   .web_icon p{
       font-size: 1em;
   }
-  .developer_icons{
-    width: 100%;
+  .web_icon{
+    width: 90%;
+    margin: 2.7em 0;
   }
 
   /* About Me */
@@ -1101,7 +1004,7 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   }
   .skillset{
       width: 90%;
-      /* margin: 40px auto; */
+
   }
 
 
@@ -1112,24 +1015,21 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   /************ Project page *******************/
 
   .project1 {
-      position: relative;
-      width: 21.00em;
-      height: 14.75em;
-      display: block;
-      
-      margin: 100px auto;
-     
+    position: relative;
+    width: 21.00em;
+    height: 14.75em;
+    display: block;
+    margin: 100px auto;
 
   } 
 
   .quote{
-      
-      width: 400px;
-      height: 150px;
-      display: block;
-      margin: 0 auto;
-      text-align: center;
-      font-size: 15px;
+    width: 400px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
       
   }
 
@@ -1144,10 +1044,9 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   .form_bg .novertical{
     padding-bottom: .4em;
     text-align: center;
-    /* font-family: 'Rokkitt', serif; */
-    /* font-family: 'Playfair Display', serif; */
     font-size: 1.5em;
     color: white;
+
   }
 
   .form_bg h2{
@@ -1155,17 +1054,17 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
     padding-top: .8em;
     color: #1C6EA4;
     font-size: .8em;
+
   }
 
   .form_bg{
-    /* background-size: cover; */
     border: 8px groove #1C6EA4;
     background-color: rgb(0, 0, 0);
     display: inline-block;
     margin: 20% auto;
     text-align: left;
-    /* padding: 20px; */
     border-radius: 2%;
+    
   }
 
   .contact_form .arrow{
@@ -1384,11 +1283,11 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
   }
   .personal_content p{
       text-indent: 20px;
-      font-size: 1.3em;
+      font-size: 1.9em;
       line-height: 160%;
   }
   .personal_content h1{
-    font-size: 3em;
+    font-size: 4em;
     margin: 0 auto;
   }
   .cool_font{
@@ -1398,33 +1297,38 @@ background: linear-gradient(0deg, rgba(54,54,54,0.9668242296918768) 32%, rgba(25
 
   .history{
       display: block;
-      margin: 20px auto;
+      margin: 0px auto;
       width: 90%;
   }
   .history p{
-      font-size: 1.4em;
+      font-size: 1.8em;
       line-height: 160%;
       width: 90%;
   }
   .history h3{
-      font-size: 20px;
+      font-size: 30px;
   }
 
   .history h4{
-      font-size: 1.2em;
+      font-size: 1.6em;
       /* margin-left: -12.5em; */
       width: 50%;
       
   }
   .history h2{
-      font-size: 26px;
+      font-size: 32px;
       margin: 0 auto;
       /* width: 80%; */
   }
   .aboutme_quote{
       margin: 0 auto;
       width: 75%;
+      margin-top: 70px;
+      
       /* margin-right: 50px; */
+  }
+  .aboutme_quote p{
+    font-size: 2em;
   }
 
   .quote_pic{

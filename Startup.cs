@@ -8,13 +8,17 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MailKit.Net.Smtp;
-using MimeKit;
+using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
+using c_sharpPortfolio.Models;
+
 
 namespace c_sharpPortfolio
 {
     public class Startup
     {
+        
+        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -31,6 +35,7 @@ namespace c_sharpPortfolio
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
