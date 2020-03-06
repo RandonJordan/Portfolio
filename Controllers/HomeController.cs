@@ -72,7 +72,7 @@ namespace c_sharpPortfolio.Controllers
                 using (var emailClient = new SmtpClient())
                 {
                     emailClient.Connect("smtp.gmail.com", 587, false);
-                    emailClient.Authenticate("randocommando2345@gmail.com", "Rnuggins##23");
+                    emailClient.Authenticate("", "");
                     emailClient.Send(message);
                     emailClient.Disconnect(true);
                 }
